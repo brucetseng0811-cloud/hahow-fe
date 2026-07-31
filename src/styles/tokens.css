@@ -1,0 +1,87 @@
+/*
+ * Design tokens from the "Dashboard UI Kit — Design System" Figma library.
+ *
+ * The `--ds-color-*` and `--ds-font-*` / `--ds-text-*` values below are a 1:1
+ * mirror of the Figma variables reported by `get_variable_defs` for the
+ * Task Card component (node 218:9678). Do not edit them by hand — re-pull
+ * from Figma instead.
+ *
+ * The `--ds-space-*`, `--ds-radius-*` and `--ds-size-*` values are NOT bound to
+ * Figma variables (that frame hardcodes its spacing and corner radii). They are
+ * lifted here so components never inline a raw number; if the design system
+ * later publishes spacing/radius variables, replace these values.
+ */
+
+:root {
+  /* ── Color ─────────────────────────────────────────────────────────── */
+  --ds-color-base-background-white: #ffffff;
+
+  --ds-color-gray-200: #eaecee;
+  --ds-color-gray-600: #4f5b67;
+  --ds-color-gray-800: #242d35;
+
+  --ds-color-primary-blue-50: #f7f7fb;
+  --ds-color-primary-blue-100: #d8d8fe;
+  --ds-color-primary-blue-500: #4040f2;
+  --ds-color-primary-blue-900: #0d0d54;
+
+  --ds-color-green-900: #073e16;
+
+  --ds-color-red-50: #fff4ec;
+  --ds-color-red-100: #ffe8d7;
+  --ds-color-red-500: #ff513a;
+  --ds-color-red-800: #931222;
+
+  /* ── Typography ────────────────────────────────────────────────────── */
+  /* "General Sans" is not a system font — self-host it or load it from
+     Fontshare, otherwise the stack falls through to the system UI font. */
+  --ds-font-family-sans: 'General Sans', system-ui, 'Segoe UI', Roboto,
+    sans-serif;
+  --ds-font-family-mono: 'IBM Plex Mono', ui-monospace, Consolas, monospace;
+
+  /* Heading/Heading Five Bold */
+  --ds-text-heading-five-bold-size: 18px;
+  --ds-text-heading-five-bold-weight: 600;
+  --ds-text-heading-five-bold-line-height: 1.5;
+  --ds-text-heading-five-bold-letter-spacing: 0;
+
+  /* Body/Medium */
+  --ds-text-body-medium-size: 14px;
+  --ds-text-body-medium-weight: 400;
+  --ds-text-body-medium-line-height: 1.5;
+  --ds-text-body-medium-letter-spacing: 0;
+
+  /* Label Text/Small */
+  --ds-text-label-small-size: 12px;
+  --ds-text-label-small-weight: 500;
+  --ds-text-label-small-line-height: 1;
+  --ds-text-label-small-letter-spacing: 0;
+
+  /* Avatar initials — a local style in Figma, not a published variable */
+  --ds-text-avatar-initials-size: 13px;
+  --ds-text-avatar-initials-weight: 500;
+  --ds-text-avatar-initials-line-height: 1;
+
+  /* ── Spacing ───────────────────────────────────────────────────────── */
+  --ds-space-100: 5px;
+  --ds-space-150: 7px;
+  --ds-space-200: 8px;
+  --ds-space-250: 10px;
+  --ds-space-400: 16px;
+  --ds-space-600: 24px;
+
+  /* ── Radius ────────────────────────────────────────────────────────── */
+  --ds-radius-md: 8px;
+  --ds-radius-lg: 12px;
+  --ds-radius-full: 9999px;
+
+  /* ── Borders ───────────────────────────────────────────────────────── */
+  --ds-border-width-hairline: 1px;
+  --ds-border-width-thick: 2px;
+
+  /* ── Component sizing ──────────────────────────────────────────────── */
+  --ds-size-avatar-sm: 32px;
+  --ds-size-avatar-stack-step: 20px;
+  --ds-size-task-card-width: 264px;
+  --ds-size-task-card-cover-height: 124px;
+}
