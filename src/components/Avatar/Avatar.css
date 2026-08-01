@@ -1,0 +1,50 @@
+.ds-avatar {
+  position: relative;
+  flex: none;
+  display: grid;
+  place-items: center;
+  inline-size: var(--ds-size-avatar-sm);
+  block-size: var(--ds-size-avatar-sm);
+  border-radius: var(--ds-radius-full);
+  overflow: clip;
+  box-sizing: border-box;
+
+  & > img {
+    inline-size: 100%;
+    block-size: 100%;
+    object-fit: cover;
+  }
+
+  &.ds-avatar--placeholder {
+    border: var(--ds-border-width-thick) solid transparent;
+
+    font-family: var(--ds-font-family-mono);
+    font-size: var(--ds-text-avatar-initials-size);
+    font-weight: var(--ds-text-avatar-initials-weight);
+    line-height: var(--ds-text-avatar-initials-line-height);
+  }
+
+  &.ds-avatar--blue {
+    background: var(--ds-color-primary-blue-50);
+    border-color: var(--ds-color-primary-blue-500);
+    color: var(--ds-color-primary-blue-900);
+  }
+
+  &.ds-avatar--red {
+    background: var(--ds-color-red-50);
+    border-color: var(--ds-color-red-500);
+    color: var(--ds-color-green-900);
+  }
+}
+
+.ds-avatar-stack {
+  display: flex;
+  align-items: center;
+
+  /* Figma steps each avatar by 20px across a 32px circle. */
+  & > .ds-avatar + .ds-avatar {
+    margin-inline-start: calc(
+      var(--ds-size-avatar-stack-step) - var(--ds-size-avatar-sm)
+    );
+  }
+}
