@@ -182,11 +182,3 @@
     border-right-color: var(--border);
   }
 }
-
-#task-card-preview {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 24px;
-  padding: 40px 0;
-}

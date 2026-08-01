@@ -2,9 +2,6 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
-import taskCover from './assets/task-cover-wireframing.jpg'
-import avatarPlaceholder from './assets/avatar-placeholder.png'
-import { TaskCard } from './components/TaskCard/TaskCard'
 import './App.css'
 
 function App() {
@@ -12,27 +9,6 @@ function App() {
 
   return (
     <>
-      <section id="task-card-preview">
-        <h2>Task Card</h2>
-        <TaskCard
-          title="Wireframing exercise"
-          date="23 Dec, 2022"
-          dateTime="2022-12-23"
-          coverSrc={taskCover}
-          coverAlt="Hand-drawn wireframe sketches"
-          members={[
-            { type: 'placeholder', initials: 'VW', tone: 'blue' },
-            { type: 'image', src: avatarPlaceholder, alt: 'Amelia Chen' },
-            { type: 'image', src: avatarPlaceholder, alt: 'Jordan Lee' },
-            { type: 'placeholder', initials: 'SF', tone: 'red' },
-          ]}
-          status="Cancelled"
-          statusTone="red"
-        />
-      </section>
-
-      <div className="ticks"></div>
-
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
