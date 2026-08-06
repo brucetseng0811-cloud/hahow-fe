@@ -1,0 +1,61 @@
+.ds-task-card {
+  box-sizing: border-box;
+  inline-size: var(--ds-size-task-card-width);
+  max-inline-size: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: var(--ds-space-400);
+
+  padding: var(--ds-space-600);
+  background: var(--ds-color-base-background-white);
+  border: var(--ds-border-width-hairline) solid var(--ds-color-gray-200);
+  border-radius: var(--ds-radius-lg);
+  overflow: clip;
+
+  font-family: var(--ds-font-family-sans);
+  text-align: start;
+
+  & .ds-task-card__cover {
+    flex: none;
+    display: block;
+    inline-size: 100%;
+    block-size: var(--ds-size-task-card-cover-height);
+    object-fit: cover;
+    border-radius: var(--ds-radius-md);
+  }
+
+  & .ds-task-card__body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--ds-space-200);
+  }
+
+  & .ds-task-card__title {
+    margin: 0;
+    color: var(--ds-color-gray-800);
+    font-size: var(--ds-text-heading-five-bold-size);
+    font-weight: var(--ds-text-heading-five-bold-weight);
+    line-height: var(--ds-text-heading-five-bold-line-height);
+    letter-spacing: var(--ds-text-heading-five-bold-letter-spacing);
+    overflow-wrap: break-word;
+  }
+
+  & .ds-task-card__date {
+    margin: 0;
+    color: var(--ds-color-gray-600);
+    font-size: var(--ds-text-body-medium-size);
+    font-weight: var(--ds-text-body-medium-weight);
+    line-height: var(--ds-text-body-medium-line-height);
+    letter-spacing: var(--ds-text-body-medium-letter-spacing);
+  }
+
+  & .ds-task-card__footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: var(--ds-space-400);
+  }
+}

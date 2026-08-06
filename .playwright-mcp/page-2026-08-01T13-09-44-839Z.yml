@@ -1,0 +1,62 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - text: This is just a demo of TodoMVC for testing, not the
+    - link "real TodoMVC app." [ref=e3] [cursor=pointer]:
+      - /url: https://todomvc.com/
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - heading "todos" [level=1] [ref=e7]
+      - textbox "What needs to be done?" [active] [ref=e8]
+    - generic [ref=e58]:
+      - checkbox "❯Mark all as complete" [ref=e59]
+      - generic [ref=e60]: ❯Mark all as complete
+      - list [ref=e61]:
+        - listitem [ref=e62]:
+          - generic [ref=e63]:
+            - checkbox "Toggle Todo" [ref=e64]
+            - generic [ref=e65]: 買牛奶
+            - text: ×
+        - listitem [ref=e76]:
+          - generic [ref=e77]:
+            - checkbox "Toggle Todo" [ref=e78]
+            - generic [ref=e79]: 寫課程講稿
+            - text: ×
+        - listitem [ref=e80]:
+          - generic [ref=e81]:
+            - checkbox "Toggle Todo" [ref=e82]
+            - generic [ref=e83]: 回覆 email
+            - text: ×
+        - listitem [ref=e84]:
+          - generic [ref=e85]:
+            - checkbox "Toggle Todo" [ref=e86]
+            - generic [ref=e87]: claude code課程
+            - text: ×
+        - listitem [ref=e88]:
+          - generic [ref=e89]:
+            - checkbox "Toggle Todo" [ref=e90]
+            - generic [ref=e91]: LongWordNoSpaces0123456789LongWordNoSpaces0123456789LongWordNoSpaces0123456789LongWordNoSpaces0123456789LongWordNoSpaces0123456789LongWordNoSpaces0123456789LongWordNoSpaces0123456789LongWord01234567
+            - text: ×
+    - generic [ref=e66]:
+      - generic [ref=e67]:
+        - strong [ref=e68]: "5"
+        - text: items left
+      - list [ref=e69]:
+        - listitem [ref=e70]:
+          - link "All" [ref=e71] [cursor=pointer]:
+            - /url: "#/"
+        - listitem [ref=e72]:
+          - link "Active" [ref=e73] [cursor=pointer]:
+            - /url: "#/active"
+        - listitem [ref=e74]:
+          - link "Completed" [ref=e75] [cursor=pointer]:
+            - /url: "#/completed"
+  - contentinfo [ref=e51]:
+    - paragraph [ref=e52]: Double-click to edit a todo
+    - paragraph [ref=e53]:
+      - text: Created by
+      - link "Remo H. Jansen" [ref=e54] [cursor=pointer]:
+        - /url: http://github.com/remojansen/
+    - paragraph [ref=e55]:
+      - text: Part of
+      - link "TodoMVC" [ref=e56] [cursor=pointer]:
+        - /url: http://todomvc.com
