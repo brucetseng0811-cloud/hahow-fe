@@ -1,0 +1,82 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - text: This is just a demo of TodoMVC for testing, not the
+    - link "real TodoMVC app." [ref=f1e3] [cursor=pointer]:
+      - /url: https://todomvc.com/
+  - generic [ref=f1e5]:
+    - generic [ref=f1e6]:
+      - heading "todos" [level=1] [ref=f1e7]
+      - textbox "What needs to be done?" [active] [ref=f1e8]
+    - generic [ref=f1e9]:
+      - checkbox "❯Mark all as complete" [ref=f1e10]
+      - generic [ref=f1e11]: ❯Mark all as complete
+      - list [ref=f1e12]:
+        - listitem [ref=f1e13]:
+          - generic [ref=f1e14]:
+            - checkbox "Toggle Todo" [ref=f1e15]
+            - generic [ref=f1e16]: 買牛奶
+            - text: ×
+        - listitem [ref=f1e17]:
+          - generic [ref=f1e18]:
+            - checkbox "Toggle Todo" [ref=f1e19]
+            - generic [ref=f1e20]: 寫課程講稿
+            - text: ×
+        - listitem [ref=f1e21]:
+          - generic [ref=f1e22]:
+            - checkbox "Toggle Todo" [ref=f1e23]
+            - generic [ref=f1e24]: 回覆 email
+            - text: ×
+        - listitem [ref=f1e25]:
+          - generic [ref=f1e26]:
+            - checkbox "Toggle Todo" [ref=f1e27]
+            - generic [ref=f1e28]: claude code課程
+            - text: ×
+        - listitem [ref=f1e29]:
+          - generic [ref=f1e30]:
+            - checkbox "Toggle Todo" [ref=f1e31]
+            - generic [ref=f1e32]: LongWordNoSpaces0123456789LongWordNoSpaces0123456789LongWordNoSpaces0123456789LongWordNoSpaces0123456789LongWordNoSpaces0123456789LongWordNoSpaces0123456789LongWordNoSpaces0123456789LongWord01234567
+            - text: ×
+        - listitem [ref=f1e33]:
+          - generic [ref=f1e34]:
+            - checkbox "Toggle Todo" [ref=f1e35]
+            - generic [ref=f1e36]: LongWordNoSpaces0123456789LongWordNoSpaces0123456789LongWordNoSpaces0123456789LongWordNoSpaces0123456789LongWordNoSpaces0123456789LongWordNoSpaces0123456789LongWordNoSpaces0123456789LongWord0123456789
+            - text: ×
+        - listitem [ref=f1e37]:
+          - generic [ref=f1e38]:
+            - checkbox "Toggle Todo" [ref=f1e39]
+            - generic [ref=f1e40]: 快速連按測試
+            - text: ×
+        - listitem [ref=f1e41]:
+          - generic [ref=f1e42]:
+            - checkbox "Toggle Todo" [ref=f1e43]
+            - generic [ref=f1e44]: 同tick壓力測試
+            - text: ×
+        - listitem [ref=f1e61]:
+          - generic [ref=f1e62]:
+            - checkbox "Toggle Todo" [ref=f1e63]
+            - generic [ref=f1e64]: 手機新增測試
+            - text: ×
+    - generic [ref=f1e45]:
+      - generic [ref=f1e46]:
+        - strong [ref=f1e47]: "9"
+        - text: items left
+      - list [ref=f1e48]:
+        - listitem [ref=f1e49]:
+          - link "All" [ref=f1e50] [cursor=pointer]:
+            - /url: "#/"
+        - listitem [ref=f1e51]:
+          - link "Active" [ref=f1e52] [cursor=pointer]:
+            - /url: "#/active"
+        - listitem [ref=f1e53]:
+          - link "Completed" [ref=f1e54] [cursor=pointer]:
+            - /url: "#/completed"
+  - contentinfo [ref=f1e55]:
+    - paragraph [ref=f1e56]: Double-click to edit a todo
+    - paragraph [ref=f1e57]:
+      - text: Created by
+      - link "Remo H. Jansen" [ref=f1e58] [cursor=pointer]:
+        - /url: http://github.com/remojansen/
+    - paragraph [ref=f1e59]:
+      - text: Part of
+      - link "TodoMVC" [ref=f1e60] [cursor=pointer]:
+        - /url: http://todomvc.com

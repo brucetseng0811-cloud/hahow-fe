@@ -1,0 +1,54 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - heading "Task Card" [level=2] [ref=e4]
+    - article [ref=e5]:
+      - img "Hand-drawn wireframe sketches" [ref=e6]
+      - generic [ref=e7]:
+        - heading "Wireframing exercise" [level=3] [ref=e8]
+        - time [ref=e9]: 23 Dec, 2022
+      - generic [ref=e10]:
+        - group "Assignees" [ref=e11]:
+          - generic [ref=e12]: VW
+          - img "Amelia Chen" [ref=e14]
+          - img "Jordan Lee" [ref=e16]
+          - generic [ref=e17]: SF
+        - generic [ref=e18]: Cancelled
+  - generic [ref=e19]:
+    - generic [ref=e20]:
+      - img "React logo" [ref=e21]
+      - img "Vite logo" [ref=e22]
+    - generic [ref=e23]:
+      - heading "Get started" [level=1] [ref=e24]
+      - paragraph [ref=e25]:
+        - text: Edit
+        - code [ref=e26]: src/App.tsx
+        - text: and save to test
+        - code [ref=e27]: HMR
+    - button "Count is 0" [ref=e28]
+  - generic [ref=e29]:
+    - generic [ref=e30]:
+      - heading "Documentation" [level=2] [ref=e32]
+      - paragraph [ref=e33]: Your questions, answered
+      - list [ref=e34]:
+        - listitem [ref=e35]:
+          - link "Explore Vite" [ref=e36] [cursor=pointer]:
+            - /url: https://vite.dev/
+        - listitem [ref=e37]:
+          - link "Learn more" [ref=e38] [cursor=pointer]:
+            - /url: https://react.dev/
+    - generic [ref=e39]:
+      - heading "Connect with us" [level=2] [ref=e41]
+      - paragraph [ref=e42]: Join the Vite community
+      - list [ref=e43]:
+        - listitem [ref=e44]:
+          - link "GitHub" [ref=e45] [cursor=pointer]:
+            - /url: https://github.com/vitejs/vite
+        - listitem [ref=e47]:
+          - link "Discord" [ref=e48] [cursor=pointer]:
+            - /url: https://chat.vite.dev/
+        - listitem [ref=e50]:
+          - link "X.com" [ref=e51] [cursor=pointer]:
+            - /url: https://x.com/vite_js
+        - listitem [ref=e53]:
+          - link "Bluesky" [ref=e54] [cursor=pointer]:
+            - /url: https://bsky.app/profile/vite.dev
